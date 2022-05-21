@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { useState } from "react";
 import styles from "./index.module.css";
-import { Component } from "react/cjs/react.development";
+import React from "react";
+// import { Component } from "react/cjs/react.development";
 
-class Home extends Component {
+class Home extends React.Component {
   state = {
     promptInput: "",
     responses: [],
