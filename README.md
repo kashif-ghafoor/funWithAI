@@ -1,4 +1,4 @@
-# FUN WITH API
+# FUN WITH AI
 
 App can process plain text prompts and produce outputs that are hard to distinguish from human writing. It uses GPT-3 is a powerful AI model created by [openAI](https://beta.openai.com). Check out some [examples](https://beta.openai.com/examples/) of what it can do! GPT-3. I have implemented 
  It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/).
