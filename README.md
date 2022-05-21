@@ -1,6 +1,8 @@
-# OpenAI API Quickstart - Node.js example app
+# FUN WITH API
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+App can process plain text prompts and produce outputs that are hard to distinguish from human writing. It uses GPT-3 is a powerful AI model created by [openAI](https://beta.openai.com). Check out some [examples](https://beta.openai.com/examples/) of what it can do! GPT-3. I have implemented 
+ It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/).
+ I have used completion endpoint. The completions endpoint can be used for a wide variety of tasks. You input some text as a prompt, and the model will generate a text completion that attempts to match whatever context or pattern you gave it. For example, if you give the API the prompt, "As Descartes said, I think, therefore", it will return the completion " I am" with high probability.
 
 ## Setup
 
@@ -11,7 +13,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd funWithAI
    ```
 
 4. Install the requirements
@@ -20,13 +22,14 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ npm install
    ```
 
-5. Make a copy of the example environment variables file
+5.create a .env file and put this in your file.
 
    ```bash
-   $ cp .env.example .env
+   OPENAI_API_KEY="your api key"
+
    ```
 
-6. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
+6. replace your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
 7. Run the app
 
@@ -34,4 +37,4 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ npm run dev
    ```
 
-You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this app.
